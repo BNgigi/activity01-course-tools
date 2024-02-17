@@ -33,6 +33,26 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 
 ```{r simple-calculations}
 # Item 1
+## Addition
+2 + 5
 
+# Item 2
+## Values 1 through 9
+int_vect <- seq(1, 9)
+int_vect
+
+# Item 3
+## Alphabet A to Q
+char_vect <- letters[1:17]
+char_vect
+# Item 4 & 5
+
+## Find indices of letters after "D"
+indices_after_D <- which(char_vect > "D")
+
+# Calculate the number of letters after "D"
+num_after_D <- length(indices_after_D)
+
+print(num_after_D)
 ```
 
